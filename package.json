@@ -1,0 +1,24 @@
+{
+  "name": "cleartexteditorial",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^2.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reload ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniamorton/cleartexteditorial.git"
+  },
+  "author": "Daphne Volante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniamorton/cleartexteditorial/issues"
+  },
+  "homepage": "https://github.com/antoniamorton/cleartexteditorial#readme"
+}

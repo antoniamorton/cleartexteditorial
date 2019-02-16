@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
- background:url(../images/bg.jpg) repeat; margin:0px; padding:0px; color:#333333; font-family:"Times New Roman", Times, serif}
+ background:url(../images/bg.jpg) repeat; margin:0px; padding:0px; color:#cedfcf; font-family:"Times New Roman", Times, serif}
  
  
 @font-face {
@@ -63,14 +63,14 @@ img {
 	padding-bottom: 9px;
 	
 }
-#page_wrapper{width:1019px; margin:0px auto; overflow:hidden; background:#c4d89d;}
+#page_wrapper{width:1019px; margin:0px auto; overflow:hidden; background:#cedfcf;}
 header{width:1019px; float:left; background:url(../images/header-bg.png) no-repeat;}
 nav{width:1019px; float:left; padding:24px 0px 10px 0px;}
 nav ul{ margin:0px; text-align:center; padding:0px;}
 nav ul li{ width:auto; display:inline; background:url(../images/circle.png) no-repeat left; padding:0 7px 0 14px; list-style:disc;}
 nav ul li:first-child{ background:none;}
 nav ul li a{ color:#333333; letter-spacing:2px; font-weight:bold;  font-size:17px; 	font-family: 'Conv_TrajanPro-Regular';}
-nav ul li a:hover{ color:#8f893f; font-size:17px; font-weight:bold;	font-family: 'Conv_TrajanPro-Regular';}
+nav ul li a:hover{ color:#629465; font-size:17px; font-weight:bold;	font-family: 'Conv_TrajanPro-Regular';}
 .header_left_col{ width:300px; text-align:center; float:left; margin-left:19px; padding-top:99px;}
 .header_left_col p{ color:#666666; 	font-family: 'Conv_NeutraTextTF-Book'; font-size:18px; }
 .logo{ width:344px; float:left;}
@@ -86,9 +86,9 @@ nav ul li a:hover{ color:#8f893f; font-size:17px; font-weight:bold;	font-family:
 #main_nav  ul li{ width:auto; display:inline; background:url(../images/circle-1.png) no-repeat left; padding:0 10px 0 23px; list-style:disc;}
 #main_nav  ul li:first-child{ background:none;}
 #main_nav  ul li a{ color:#333333; letter-spacing:3px; font-weight:bold;  font-size:27px; 	font-family: 'Conv_TrajanPro-Regular';}
-#main_nav  ul li a:hover{ color:#8f893f; letter-spacing:3px; font-weight:bold;  font-size:27px; 	font-family: 'Conv_TrajanPro-Regular';}
+#main_nav  ul li a:hover{ color:#629465; letter-spacing:3px; font-weight:bold;  font-size:27px; 	font-family: 'Conv_TrajanPro-Regular';}
 #service_col{ width:100%; float:left; padding-bottom:0px}
-#service_col p{ color: #333333; letter-spacing:2px; font-family: 'Conv_NeutraTextLight'; font-size: 31px;  margin-bottom: 16px; text-align: center;}
+#service_col p{ color: #333333; letter-spacing:2px; font-family: 'Conv_NeutraTextLight'; font-size: 24px;  margin: 16px; text-align: left;}
 #service_col p img{ margin:0px 0px 0px;}
 #service_col .editing_service{  background: url("../images/service-divider.png") no-repeat scroll right top transparent;
    float: left;
@@ -105,7 +105,7 @@ nav ul li a:hover{ color:#8f893f; font-size:17px; font-weight:bold;	font-family:
     font-weight: bold;
     padding:0 10px; }
 #service_col .editing_service p a{font-family: 'Conv_TrajanPro-Regular'; font-weight:bold; color:#333333; font-size:18px; }
-#service_col .editing_service p a:hover{font-family: 'Conv_TrajanPro-Regular'; font-weight:bold; color:#8f893f; font-size:18px; }
+#service_col .editing_service p a:hover{font-family: 'Conv_TrajanPro-Regular'; font-weight:bold; color:#629465; font-size:18px; }
 
 #editorial_col{ background:url(../images/editorial-bg.png) repeat-x;  color: #FFFFFF; margin-bottom:14px;
     float: left;
@@ -129,7 +129,7 @@ nav ul li a:hover{ color:#8f893f; font-size:17px; font-weight:bold;	font-family:
 #testimonial_col{ width:90%; float:left; padding:0px 0px 0px 50px;}
 #testimonial_col p{ color: #333333; margin-bottom:9px; letter-spacing:2px;  font-family: 'Conv_NeutraTextLight'; font-size: 31px; text-align: center;}
 #testimonial_col p a{ color: #333333;  font-family: 'Conv_NeutraTextLight'; font-size: 31px; text-decoration:underline;}
-#testimonial_col p a:hover{ color: #8f893f;  text-decoration:none;}
+#testimonial_col p a:hover{ color: #629465;  text-decoration:none;}
 #testimonial_col p img{ margin:17px 12px 0;}
 #testimonial_col .margin_space{ margin:0px 60px; background:none; }
 #testimonial_col ul{ margin:16px 0 0; padding:0px;}
@@ -137,16 +137,12 @@ nav ul li a:hover{ color:#8f893f; font-size:17px; font-weight:bold;	font-family:
 #testimonial_col ul li p{ color: #333333; font-family: "Conv_NeutraTextTFBold",Times,serif;  font-size: 24px;  line-height: 26px;  min-height: 246px;  padding-top: 24px;}
 
 #testimonial_col ul li p a{ font-family:"Conv_NeutraTextLight", Times, serif;  text-decoration:none; letter-spacing:0px; font-size:19px; color:#333333; line-height:28px;}
-#testimonial_col ul li p a:hover{color:#8f893f; text-decoration:none;}
+#testimonial_col ul li p a:hover{color:#629465; text-decoration:none;}
 #testimonial_col .email_address{width:516px;  padding:6px 0px; border-radius:7px; color:#333333; letter-spacing:0px; font-size:23px; font-family: 'Conv_NeutraTextTF-Book'; margin:0px auto 28px; background:#b3b3b3; height:30px; line-height:30px;}
 #testimonial_col .email_address a{ font-size:23px; text-decoration:underline; color:#333333; font-family: 'Conv_NeutraTextTF-Book'; }
 #testimonial_col .email_address a:hover{ font-size:23px; color:#fff;  text-decoration:underline; font-family: 'Conv_NeutraTextTF-Book'; }
 #testimonial_col .square_box{ width:439px; text-align:center; margin-bottom:26px; padding-top:40px;  height:136px; float:left; background:url(../images/square-box.png) no-repeat;}
 #testimonial_col .divider_col{width:38px; float:left;}
-#testimonial_col .square_box h3{ font-size:46px; color:#333333; font-weight:normal; font-family: 'Conv_NeutraTextLight';}
-#testimonial_col .square_box p{ font-size:23px; color:#333333; letter-spacing:0; font-weight:normal; font-family: 'Conv_NeutraTextLight'; font-weight:bold;}
-#testimonial_col .square_box p a{ font-size:23px; color:#333333; text-decoration:underline; font-weight:normal; font-family: 'Conv_NeutraTextLight'; font-weight:bold;}
-#testimonial_col .square_box p a:hover{ font-size:23px; color:#8f893f; text-decoration:underline; font-weight:normal; font-family: 'Conv_NeutraTextLight'; font-weight:bold;}
 
 #inner_middle{ width:95%; float:left; padding:14px 25px 0px;}
 #inner_middle .left_col{ width:631px; float:left;}
