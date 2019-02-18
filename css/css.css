@@ -131,7 +131,7 @@ nav ul li a:hover{ color:#629465; font-size:17px; font-weight:bold;	font-family:
 #testimonial_col p a{ color: #333333;  font-family: 'Conv_NeutraTextLight'; font-size: 31px; text-decoration:underline;}
 #testimonial_col p a:hover{ color: #629465;  text-decoration:none;}
 #testimonial_col p img{ margin:17px 12px 0;}
-#testimonial_col .margin_space{ margin:0px 60px; background:none; }
+#testimonial_col .margin_space{ margin:0px 60px; background:none;}
 #testimonial_col ul{ margin:16px 0 0; padding:0px;}
 #testimonial_col ul li{ width:203px; text-align:center; float:left; display:inline; list-style:none; border-radius:18px; background:#e3edd1; padding:20px 30px;}
 #testimonial_col ul li p{ color: #333333; font-family: "Conv_NeutraTextTFBold",Times,serif;  font-size: 24px;  line-height: 26px;  min-height: 246px;  padding-top: 24px;}
