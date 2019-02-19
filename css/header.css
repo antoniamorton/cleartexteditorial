@@ -16,7 +16,8 @@ a hover {
 
 #header {
 	width: 1019px;
-	background: url(../images/header-bg.png) no-repeat;
+  background: url(../images/header-bg.png) no-repeat;
+  margin: auto;
 }
 
 nav {
@@ -39,5 +40,6 @@ nav ul li {
 }
 
 .logo {
-	width: 344px;
+  width: 344px;
+  margin: auto;
 }
