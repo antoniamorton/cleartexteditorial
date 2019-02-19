@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*
 body {
 	background: url(../images/bg.jpg) repeat;
 	margin: 0px;
@@ -751,7 +752,7 @@ nav ul li a:hover {
 	text-decoration: underline;
 }
 
-/* this is the attribute*/
+/* this is the attribute*
 
 #inner_middle .right_col .testimonial_sub_col p {
 	font-family: 'Conv_NeutraTextTF-Book';
@@ -763,7 +764,7 @@ nav ul li a:hover {
 	color: #333;
 }
 
-/* this is the quote*/
+/* this is the quote*
 
 #inner_middle .right_col .testimonial_sub_col p a {
 	font-family: 'Conv_NeutraTextTFDemi';
@@ -833,3 +834,4 @@ footer {
 	font-size: 17px;
 	color: #8f893f;
 }
+*/

@@ -1,0 +1,43 @@
+
+a {
+  color: #333333;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Conv_TrajanPro-Regular';
+}
+
+a hover {
+  color: #629465;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: 'Conv_TrajanPro-Regular';
+}
+
+#header {
+	width: 1019px;
+	background: url(../images/header-bg.png) no-repeat;
+}
+
+nav {
+	width: 1019px;
+	padding: 24px 0px 10px 0px;
+}
+
+nav ul {
+	margin: 0px;
+	text-align: center;
+	padding: 0px;
+}
+
+nav ul li {
+	width: auto;
+	display: inline;
+	background: url(../images/circle.png) no-repeat left;
+	padding: 0 7px 0 14px;
+	list-style: disc;
+}
+
+.logo {
+	width: 344px;
+}

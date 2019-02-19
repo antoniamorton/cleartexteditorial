@@ -1,0 +1,20 @@
+body {
+	background-color: #cedfcf;
+	font-family: "Times New Roman", Times, serif
+}
+
+#header_space {
+	display: block;
+}
+
+#subhead {
+	background: url("../images/gradient-bg.png") repeat-x scroll 0 0 transparent;
+	height: 64px;
+	margin-top: -28px;
+	padding-top: 42px;
+	width: 100%;
+}
+
+#main {
+	display: block;
+}
