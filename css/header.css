@@ -1,5 +1,5 @@
 
-a {
+#header a {
   color: #333333;
 	letter-spacing: 2px;
 	font-weight: bold;
@@ -7,7 +7,7 @@ a {
 	font-family: 'Conv_TrajanPro-Regular';
 }
 
-a hover {
+#header a hover {
   color: #629465;
 	font-size: 17px;
 	font-weight: bold;

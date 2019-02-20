@@ -1,6 +1,60 @@
+@font-face {
+	font-family: 'Conv_TrajanPro-Regular';
+	src: url('../font/TrajanPro-Regular.eot');
+	src: local('☺'), url('../font/TrajanPro-Regular.woff') format('woff'), url('../font/TrajanPro-Regular.ttf') format('truetype'), url('../font/TrajanPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_NeutraTextTFDemi';
+	src: url('../font/NeutraTextTFDemi.eot');
+	src: local('☺'), url('../font/NeutraTextTFDemi.woff') format('woff'), url('../font/NeutraTextTFDemi.ttf') format('truetype'), url('../font/NeutraTextTFDemi.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_NeutraTextTF-Book';
+	src: url('../font/NeutraTextTF-Book.eot');
+	src: local('☺'), url('../font/NeutraTextTF-Book.woff') format('woff'), url('../font/NeutraTextTF-Book.ttf') format('truetype'), url('../font/NeutraTextTF-Book.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_NeutraTextTFBold';
+	src: url('../font/NeutraTextTFBold.eot');
+	src: local('☺'), url('../font/NeutraTextTFBold.woff') format('woff'), url('../font/NeutraTextTFBold.ttf') format('truetype'), url('../font/NeutraTextTFBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_NeutraTextLight';
+	src: url('../font/NeutraTextLight.eot');
+	src: local('☺'), url('../font/NeutraTextLight.woff') format('woff'), url('../font/NeutraTextLight.ttf') format('truetype'), url('../font/NeutraTextLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	background-color: #cedfcf;
-	font-family: "Times New Roman", Times, serif
+	font-family: "Conv_NeutraTextLight", "Times New Roman", Times, serif;
+}
+
+h1 {
+	font-family: "Conv_NeutraTextTF-Book";
+}
+
+a {
+	font-family: "Conv_NeutraTextTF-Book";
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #629465;
 }
 
 #header_space {
@@ -15,6 +69,64 @@ body {
 	width: 100%;
 }
 
+#subhead p {
+	text-align: center;
+	font-size: 28pt;
+	margin: auto;
+}
+
 #main {
 	display: block;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 50px;
+	font-size: 16pt;
+}
+
+#main ul {
+	padding-left: 20px;
+}
+
+#reviews-area {
+	text-align: center;
+}
+
+#reviews {
+	width: 1019px;
+	margin: auto;
+}
+
+.review {
+	width: 200px;
+	height: 300px;
+	vertical-align: top;
+	display: inline-block;
+	border-radius: 18px;
+	background: #e3edd1;
+	margin: 20px;
+	padding: 10px;
+	position: relative;
+}
+
+.review img {
+	width: 134px;
+	height: 38px;
+	margin: 10px;
+}
+
+.review .top{
+	
+}
+
+.review .bottom {
+	position: absolute;
+	bottom: 10px;
+	left: 15%;
+}
+
+.review p {
+	position: absolute;
+	font-size: 14pt;
+	margin: 10px;
+	margin-left: 0px;
 }

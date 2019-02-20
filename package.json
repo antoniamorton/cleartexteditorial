@@ -5,11 +5,12 @@
   "main": "index.html",
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "reload": "^2.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "reload ."
+    "start": "browser-sync start --server --files \"css/*.css,src/*.js,*.html\" -w"
   },
   "repository": {
     "type": "git",
