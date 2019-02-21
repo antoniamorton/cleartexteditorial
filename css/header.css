@@ -17,7 +17,8 @@
 #header {
 	width: 1019px;
   background: url(../images/header-bg.png) no-repeat;
-  margin: auto;
+	margin: auto;
+	margin-bottom: 50px;
 }
 
 nav {
