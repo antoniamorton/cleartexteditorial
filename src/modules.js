@@ -19,4 +19,11 @@
     const footer = document.getElementById('footer_space');
     footer.innerHTML = res1;
   });
+
+  fetch('right-col.html')
+  .then(res1 => res1.text())
+  .then(res1 => {
+    const footer = document.getElementById('right-col_space');
+    footer.innerHTML = res1;
+  });
 })();
