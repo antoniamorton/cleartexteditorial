@@ -70,3 +70,20 @@ a:hover {
 .bold {
   font-family: "Conv_NeutraTextTF-Book";
 }
+
+#main.two-column {
+  width: 1200px;
+}
+
+.left_col {
+  width: 800px;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 20px;
+}
+
+.right_col {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
