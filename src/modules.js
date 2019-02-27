@@ -10,20 +10,26 @@
   // Add the HTML snippet to the DOM.
   .then(res => {
     const header = document.getElementById('header_space');
-    header.innerHTML = res;
+    if (header) {
+      header.innerHTML = res;
+    }
   });
 
   fetch('footer.html')
   .then(res1 => res1.text())
   .then(res1 => {
     const footer = document.getElementById('footer_space');
-    footer.innerHTML = res1;
+    if (footer) {
+      footer.innerHTML = res1;
+    }
   });
 
   fetch('right-col.html')
-  .then(res1 => res1.text())
-  .then(res1 => {
-    const footer = document.getElementById('right-col_space');
-    footer.innerHTML = res1;
+  .then(res2 => res2.text())
+  .then(res2 => {
+    const rightCol = document.getElementById('right-col_space');
+    if (rightCol) {
+      rightCol.innerHTML = res2;
+    }
   });
 })();

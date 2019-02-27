@@ -41,6 +41,7 @@
 body {
 	background-color: #cedfcf;
 	font-family: "Conv_NeutraTextLight", "Times New Roman", Times, serif;
+	margin: 0px;
 }
 
 h1 {
@@ -49,12 +50,12 @@ h1 {
 
 a {
 	font-family: "Conv_NeutraTextTF-Book";
-	text-decoration: none;
+	text-decoration: underline;
 	color: #000000;
 }
 
 a:hover {
-	color: #629465;
+	color: #3d9b70;
 }
 
 #main {
