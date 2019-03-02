@@ -1,3 +1,9 @@
-#services_intro {
+#services-intro {
   font-weight: bold;
+}
+
+#services-image {
+  display: block;
+  width: 60%;
+  margin: auto;
 }

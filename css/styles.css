@@ -76,15 +76,21 @@ a:hover {
   width: 1200px;
 }
 
-.left_col {
+.left-col {
   width: 800px;
   display: inline-block;
   vertical-align: top;
   padding-right: 20px;
 }
 
-.right_col {
+.right-col {
   width: 300px;
   display: inline-block;
   vertical-align: top;
 }
+
+ul {
+	line-height: 30px;
+}
+
+p {line-height: 28px;}

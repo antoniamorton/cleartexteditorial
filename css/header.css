@@ -1,5 +1,5 @@
 
-#header a {
+#header nav a {
   color: #333333;
 	letter-spacing: 2px;
 	font-weight: bold;
@@ -17,7 +17,7 @@
 #header {
 	width: 100%;
 	background: url(../images/header-bg-long.png) no-repeat;
-	background-size: 100% 80%;
+	background-size: 100% 70%;
 	margin-bottom: 50px;
 }
 
@@ -50,4 +50,17 @@ nav ul li {
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: normal;
+}
+
+#subhead {
+	background: url("../images/gradient-bg.png") repeat-x scroll 0 0 transparent;
+	height: 64px;
+	width: 100%;
+}
+
+#subhead p {
+	text-align: center;
+	font-size: 28pt;
+	margin: auto;
+	padding-top: 10px;
 }

@@ -1,20 +1,6 @@
 
-#header_space {
+#header-space {
 	display: block;
-}
-
-#subhead {
-	background: url("../images/gradient-bg.png") repeat-x scroll 0 0 transparent;
-	height: 64px;
-	margin-top: -28px;
-	width: 100%;
-}
-
-#subhead p {
-	text-align: center;
-	font-size: 28pt;
-	margin: auto;
-	padding-top: 10px;
 }
 
 #main {

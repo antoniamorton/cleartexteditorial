@@ -1,12 +1,12 @@
-#footer_container {
+#footer-container {
   padding: 20px;
 }
 
-#footer_container p {
+#footer-container p {
   text-align: center;
 }
 
-#footer_container img {
+#footer-container img {
   width: 500px;
   height: 220px;
   margin: auto;
