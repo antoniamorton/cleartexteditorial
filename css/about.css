@@ -3,12 +3,17 @@
   width: 200px;
   vertical-align: top;
   margin: 20px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 #left-col {
   display: inline-block;
   width: 500px;
+  margin-top: -20px;
+}
+
+#left-col p {
+  margin-bottom: 0px;
 }
 
 #bush {

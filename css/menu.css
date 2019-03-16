@@ -1,0 +1,33 @@
+nav {
+	width: 810px;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav ul {
+	margin: 0px;
+	text-align: center;
+  padding: 0px;
+}
+
+#first-menu-item {
+  background: none;
+}
+
+nav ul li {
+	width: auto;
+  display: inline;
+	background: url(../images/circle.png) no-repeat left;
+	padding: 0 7px 0 14px;
+}
+
+
+
+nav a {
+  color: #333333;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Conv_TrajanPro-Regular';
+}

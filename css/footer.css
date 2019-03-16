@@ -1,5 +1,6 @@
 #footer-container {
   padding: 20px;
+  width: 100%;
 }
 
 #footer-container p {
@@ -11,4 +12,8 @@
   height: 220px;
   margin: auto;
   display: block;
+}
+
+#webmaster {
+  font-size: 12pt;
 }

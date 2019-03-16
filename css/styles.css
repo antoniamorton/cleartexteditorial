@@ -95,8 +95,17 @@ ul {
 
 p {
 	line-height: 28px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 ul.no-style {
 	list-style-type: none;
+}
+
+img.divider {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
