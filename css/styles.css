@@ -109,3 +109,10 @@ img.divider {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+.page_image {
+	display: block;
+  width: 100%;
+	margin: auto;
+	margin-bottom: 20px;
+}
