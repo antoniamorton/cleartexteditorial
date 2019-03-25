@@ -1,1 +1,3 @@
-Write your markdown here!
+# Blog Post 1
+
+Write your markdown here
