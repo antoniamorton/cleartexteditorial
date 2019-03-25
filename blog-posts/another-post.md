@@ -64,4 +64,4 @@ Start numbering with offset:
 ## Images
 
 ![image alt-text](images/logo.png)
-images can't be resized in markdown, so make sure the image is the size you want it before uploading it to the images folder. Make sure to use the path '/images/nameofyourimage.jpg'
+images can't be resized in markdown, so make sure the image is the size you want it before uploading it to the images folder. Make sure to use the path 'images/nameofyourimage.jpg'

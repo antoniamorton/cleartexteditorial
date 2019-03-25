@@ -5,21 +5,21 @@
 1. Navigate to your [repository on gitHub](https://github.com/antoniamorton/cleartexteditorial).
 1. Log in using provided credentials.
 1. Click on **blog-posts** folder.
->![](/images/clickonblogposts.png)
+>![](images/clickonblogposts.png)
 1. Select **create new file**.
->![](/images/createnewfile.png)
+>![](images/createnewfile.png)
 1. Write your markdown document. Make sure you add **'.md'** to the end of the file name. Use whatever naming convention you like, but don't use spaces in file names.
->![](/images/newfile.png)
+>![](images/newfile.png)
 1. Commit (save) your file.
->![](/images/commit.png)
+>![](images/commit.png)
 1. Navigate back to the root directory of your repository.
->![](/images/backtoroot.png)
+>![](images/backtoroot.png)
 1. Click on **blog-posts.conf** in the alphabetical listing of files.
 >![](images/clickonblogpostsconf.png)
 1. Click on the **pencil icon** to edit the file
->![](/images/editfile.png)
+>![](images/editfile.png)
 1. Add the name of your new file to the list. The order of this list determines the order the posts will be displayed in
->![](/images/addfiletolist.png)
+>![](images/addfiletolist.png)
 1. Commit your changes as before.
 
 ## How to preview your post before making it public
