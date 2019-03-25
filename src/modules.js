@@ -67,6 +67,7 @@ function insertMenu(id) {
 
 function getBlogPostsConf() {
   let path = window.location.pathname;
+  console.log(path);
   let stage = (path == '/blog-preview.html' ? 'blog-preview.conf' : 'blog-posts.conf');
   return fetch(stage)
   .then(res => {
