@@ -81,11 +81,11 @@ function getBlogPostsConf() {
 
 function makePostsHtml(posts) {
   return posts.map(v => {
-    v = v.replace(/(?<!\w)"(?=\w)/g, '&ldquo;');
-    v = v.replace(/(?<=\w)"(?!\w)/g, '&rdquo;');
-    v = v.replace(/(?<!\w)'(?=\w)/g, '&lsquo;');
-    v = v.replace(/(?<=\w)'(?!\w)/g, '&rsquo;');
-    v = v.replace(/(?<=\w)'(?=\w)/g, '&rsquo;');
+    v = v.replace(/(\W)"(\w)/g, '$1&ldquo;$2');
+    v = v.replace(/(\w)"(\W)/g, '$1&rdquo;$2');
+    v = v.replace(/(\W)'(\w)/g, '$1&lsquo;$2');
+    v = v.replace(/(\w)'(\W)/g, '$1&rsquo;$2');
+    v = v.replace(/(\w)'(\w)/g, '$1&rsquo;$2');
     return '<div class="blog-post">' + marked(v) + '</div>';
   }).join('\n');
 }

@@ -10,10 +10,18 @@
 #footer-container img {
   width: 500px;
   height: 220px;
-  margin: auto;
+  margin: 20px auto;
   display: block;
+}
+
+#footer-container nav a {
+  font-size: 15px;
 }
 
 #webmaster {
   font-size: 12pt;
+}
+
+#webmaster a {
+  font-family: "Conv_NeutraTextLight";
 }
