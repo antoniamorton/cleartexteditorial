@@ -1,0 +1,29 @@
+.blog-post {
+  background: #FFFFFF;
+  padding: 5px 20px;
+  margin: 20px 0px;
+}
+
+.blog-post h1 {
+  font-size: 1.8em;
+}
+
+#post-list {
+  padding-inline-start: 0px;
+  background: #dde9de;
+  padding: 5px 20px 5px;
+}
+
+#post-list li {
+  margin: 20px 0px;
+}
+
+#post-list a {
+  color: #333333;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'Conv_TrajanPro-Regular';
+}
+
+

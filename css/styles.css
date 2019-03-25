@@ -73,18 +73,18 @@ a:hover {
 }
 
 #main.two-column {
-  width: 1200px;
+	width: 1200px;
 }
 
 .left-col {
-  width: 800px;
+  width: 834px;
   display: inline-block;
   vertical-align: top;
-  padding-right: 20px;
+	padding-right: 20px;
 }
 
 .right-col {
-  width: 300px;
+  width: 340px;
   display: inline-block;
   vertical-align: top;
 }

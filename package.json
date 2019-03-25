@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "marked": "^0.6.1",
+    "smartypants": "^0.1.1"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "reload": "^2.4.0"

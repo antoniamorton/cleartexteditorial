@@ -26,13 +26,31 @@
     }
   });
 
-  fetch('right-col.html')
-  .then(res2 => res2.text())
-  .then(res2 => {
-    const rightCol = document.getElementById('right-col-space');
-    if (rightCol) {
-      rightCol.innerHTML = res2;
-    }
+  // fetch('right-col.html')
+  // .then(res2 => res2.text())
+  // .then(res2 => {
+  //   const rightCol = document.getElementById('right-col-space');
+  //   if (rightCol) {
+  //     rightCol.innerHTML = res2;
+  //   }
+  // });
+
+  let md = document.getElementById('markdown-area');
+  if (!md) {
+    return;
+  }
+  let rc = document.getElementById('right-col')
+  getBlogPostsConf()
+  .then(fileNames => {
+    let fileNamesF = fileNames.filter(v => v !== '');
+    Promise.all(fileNamesF.map(f => {
+      return fetch('blog-posts/' + f)
+    }))
+    .then(responses => Promise.all(responses.map(res => res.text()))
+    ).then(posts => {
+      rc.innerHTML = '<ul class="no-style" id="post-list">' + makeRightColHtml(posts) + '</ul>';
+      md.innerHTML = makePostsHtml(posts);
+    });
   });
 })();
 
@@ -45,4 +63,35 @@ function insertMenu(id) {
       menu.innerHTML = res3;
     }
   });
+}
+
+function getBlogPostsConf() {
+  return fetch('blog-posts.conf')
+  .then(res => {
+    return res.text();
+  })
+  .then(res => {
+    return(res.split('\n'));
+  });
+
+}
+
+function makePostsHtml(posts) {
+  return posts.map(v => {
+    v = v.replace(/(?<!\w)"(?=\w)/g, '&ldquo;');
+    v = v.replace(/(?<=\w)"(?!\w)/g, '&rdquo;');
+    v = v.replace(/(?<!\w)'(?=\w)/g, '&lsquo;');
+    v = v.replace(/(?<=\w)'(?!\w)/g, '&rsquo;');
+    v = v.replace(/(?<=\w)'(?=\w)/g, '&rsquo;');
+    return '<div class="blog-post">' + marked(v) + '</div>';
+  }).join('\n');
+}
+
+function makeRightColHtml(posts) {
+  return posts.map(v => {
+    // console.log(marked(v));
+    let dom = new DOMParser().parseFromString(marked(v), 'text/html');
+    let firstChild = dom.getElementsByTagName('body')[0].firstChild;
+    return '<li><a href="#' + firstChild.id + '">' + firstChild.innerHTML + '</a></li>';
+  }).join('\n');
 }

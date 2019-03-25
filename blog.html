@@ -15,7 +15,9 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
   <link href="css/header.css" rel="stylesheet" type="text/css" />
   <link href="css/footer.css" rel="stylesheet" type="text/css" />
- <!-- <link href="css/blog.css" rel="stylesheet" type="text/css" /> -->
+  <script src="src/vendor/marked.min.js"></script>
+  <script src="src/vendor/smartypants.js"></script>
+  <link href="css/blog.css" rel="stylesheet" type="text/css" />
 
   <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,18 +27,22 @@
 
 <body>
   <div id="page-wrapper">
+
     <div id="header-space">
     </div>
 
-    <div id="main">
-      <div>
-        <h1>Blog</h1>
-        
+    <div id="main" class="two-column">
+      <h1 class="center-text">Blog</h1>
+      <div class="left-col">
+        <div id="markdown-area"></div>
+      </div>
+      <div class="right-col" id="right-col"></div>
       <div id="footer-space">
       </div>
     </div>
     <script src="src/modules.js"></script>
-    </div>
+
+  </div>
 </body>
 
 </html>
