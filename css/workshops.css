@@ -3,3 +3,34 @@
   width: 100%;
   margin: auto;
 }
+
+#collage {
+  width: 100%;
+  height: 500px;
+  margin: 50px 0px 20px;
+}
+
+#top-row, #bottom-row {
+  height: 50%;
+}
+
+#top-row-text, #bottom-row-text {
+  display: inline-block;
+}
+
+#top-row-image, #bottom-row-image {
+  display: inline-block;
+  height: 100%;
+}
+
+#top-row-image img, #bottom-row-image img {
+  height: 90%
+}
+
+#bottom-row-image, #top-row-text {
+  float: right;
+}
+
+.page_image {
+  margin-top: 40px;
+}
